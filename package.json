@@ -1,0 +1,16 @@
+{
+  "name": "trading-bot",
+  "version": "0.0.1",
+  "description": "Futures crypto trading bot. Multiple CEXs, different algorithms",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node bin/trading-bot.js"
+  },
+  "author": "@ax333l",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "~16.4.5",
+    "envalid": "~8.0.0",
+    "log4js": "~6.9.1"
+  }
+}
